@@ -1,7 +1,30 @@
 1. What data types do each of these values represent?
 
-  "A Clockwork Orange": 
-  42
-  09/02/1945
-  98.7
-  $15.99
+  "A Clockwork Orange": string
+  42                  : integer
+  09/02/1945          : date
+  98.7                : float
+  $15.99              : numeric
+  
+2. "Explain when a database would be used. Explain when a text file would be used."
+  Database would be used to store, manipulate, and otherwise change or use data of any kind. Typically used by computers.
+  Text files would be used to store small, human-readable pieces of information that would not need to be manipulated and could be easily and quickly updated by a person.
+  
+3. "Describe one difference between SQL and other programming languages."
+  SQL is a declarative programming language
+  
+4. "In your own words, explain how the pieces of a database system fit together at a high level."
+  Similar data is stored together in a binary file format with specific structures to organize, read, and change data quickly.
+
+5. "Explain the meaning of table, row, column, and value."
+  Table: The structure in which the similar data is stored
+  Row: One individual set of information in the database. For instance, all information related to one purchase.
+  Column: One specific data type stored for each row in the database.
+  Value: The intersection of rows and columns, one individual value of data in the database
+
+6. "List three data types that can be used in a table."
+  String, numerical, date
+
+7. "Given this payments table, provide an English description of the following queries and include their results:"
+  
+  
