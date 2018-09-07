@@ -26,5 +26,32 @@
   String, numerical, date
 
 7. "Given this payments table, provide an English description of the following queries and include their results:"
+  From the payments database, return all related date and amount values
+    Results:  5/1/2016, 1500.00
+              5/10/2016, 37.00
+              5/15/2016, 124.93
+              5/23/2016, 54.72
   
+  From the payments database, in the amount column, return amounts greater than 500
+    Results:  1500.00
+    
+  From the payments database, Return all values from the payee 'Mega Foods'
+    Results:  5/15/2016, Mega Foods, 124.93, Groceries
+
+8. "Given this users table, write SQL queries using the following criteria and include the output:"
+
+- The email and sign-up date for the user named DeAndre Data.
+  SELECT email, signup
+  FROM users
+  WHERE name = 'DeAndre Data';
+  
+- The user ID for the user with email 'aleesia.algorithm@uw.edu'.
+  SELECT userid
+  FROM users
+  WHERE email = 'aleesia.algorithm@uw.edu';
+  
+- All the columns for the user ID equal to 4.
+  SELECT *
+  FROM users
+  WHERE userid = 4;
   
